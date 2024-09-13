@@ -1,0 +1,100 @@
+/* Basic Reset */
+html,
+body {
+    height: 100%;
+    font-family: "Cairo", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+h2 {
+    color: #1c1c1c;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #6f6f6f;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+
+/* Form Styling */
+.checkout__input {
+    margin-bottom: 24px;
+}
+
+.checkout__input p {
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.checkout__input p span {
+    color: #dd2222;
+}
+
+.checkout__input input {
+    width: 96%;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #b2b2b2;
+    border-radius: 4px;
+}
+
+.checkout__input input::placeholder {
+    color: #b2b2b2;
+}
+
+
+.primary-btn:hover {
+    background-color: #6ab030;
+}
+
+/* Container and Form Layout */
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/* Button Styling */
+.primary-btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 16px 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #7fad39;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: background 0.3s ease;
+    margin: 0 auto; /* Centers button horizontally */
+}
+
+/* Center the container */
+.button-container {
+    display: flex;
+    justify-content: center; /* Aligns button horizontally */
+    margin-top: 24px; /* Adds some spacing above the button */
+}
+
+.primary-btn:hover {
+    background-color: #6ab030;
+}
+
+
